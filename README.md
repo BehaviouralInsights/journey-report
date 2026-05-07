@@ -34,7 +34,8 @@ mv ./path_to_new_report/new_report.html index.html
 # Install staticrypt
 npm install staticrypt
 
-# Encrypt the report
+# Encrypt the report and change the color schema and title of the decryption 
+# landing page
 npx staticrypt index.html \
     -p <long-password> \
     --template-color-primary "#E5E7EB" \
